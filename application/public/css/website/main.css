@@ -1,0 +1,1074 @@
+/*  */
+/** @deprecated */
+/*  */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../../images/ST_baseimage.jpg');
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+body.contrast-design {
+    background: #1c1b17;
+}
+body.contrast-design .toggle-menu .title {
+    color: #ffcc00;
+}
+body.contrast-design .toggle-menu .icon-bar {
+    background: #ffcc00;
+}
+body.contrast-design header nav .logo {
+    background-image: url('../../images/ST_sprite_czb.png');
+}
+body.contrast-design header nav .menu-container .menu-item a {
+    color: #ffcc00;
+}
+body.contrast-design header nav .website-controls .control a {
+    color: #ffcc00;
+}
+body.contrast-design header nav .website-controls .control .change-font-size {
+    background-image: url('../../images/ST_sprite_czb.png');
+}
+body.contrast-design header nav .website-controls .control .change-font-size.active {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+body.contrast-design main .home-container .home-title {
+    color: #ffcc00;
+    border-color: #ffcc00;
+}
+body.contrast-design main .home-container .home-content {
+    color: #ffcc00;
+}
+body.contrast-design main .list-container .list-item {
+    border-color: #ffcc00;
+    color: #ffcc00;
+}
+body.contrast-design main .list-container .list-item .header-item .divider {
+    background: #ffcc00;
+}
+body.contrast-design main .list-container .short-content-item {
+    border-color: #ffcc00;
+}
+body.contrast-design main .page-title-container {
+    color: #ffcc00;
+}
+body.contrast-design main .page-title-container .page-cell.left:after {
+    background: #ffcc00;
+}
+body.contrast-design main .page-title-container .page-cell.right:after {
+    background: #ffcc00;
+}
+body.contrast-design main .page-title-container .page-cell .line {
+    background: #ffcc00;
+}
+body.contrast-design main .page-title-container .page-cell .page-name:after {
+    background: #ffcc00;
+}
+body.contrast-design main .mobile-page-date {
+    color: #ffcc00;
+}
+body.contrast-design main #sub-page-content #content {
+    color: #ffcc00;
+    border-color: #ffcc00;
+}
+body.contrast-design main .single-person .person-information {
+    border-color: #ffcc00;
+    color: #ffcc00;
+}
+body.contrast-design main .single-person .person-information .person-cell .text:after {
+    background-image: url('../../images/ST_sprite_czb.png');
+}
+body.contrast-design main .sub-title {
+    color: #ffcc00;
+}
+body.contrast-design main .single-person .belt,
+body.contrast-design main #contact .contact-info-container .single-box .belt {
+    background: #ffcc00;
+}
+body.contrast-design main hr,
+body.contrast-design main #album-items-container .album-item,
+body.contrast-design main #contact .text-container .content,
+body.contrast-design main .documents-container .content {
+    border-color: #ffcc00;
+}
+body.contrast-design main #documents-container .category-box .category-content,
+body.contrast-design main .list-container .list-item .short-content-item .more-button {
+    background: #1c1b17;
+    color: #ffcc00;
+}
+body.contrast-design main #contact .map-container .address-container,
+body.contrast-design main #album-items-container .album-item .album-title {
+    background: #ffcc00;
+    color: #1c1b17;
+}
+body.contrast-design h1,
+body.contrast-design h3,
+body.contrast-design main .single-person,
+body.contrast-design main .single-person .details,
+body.contrast-design .color-green,
+body.contrast-design .color-blue,
+body.contrast-design .color-red,
+body.contrast-design main .home-content,
+body.contrast-design .pagination-container,
+body.contrast-design main #contact,
+body.contrast-design main .documents-container .content .table .table-row,
+body.contrast-design main .documents-container .title-container {
+    color: #ffcc00 !important;
+}
+body.contrast-design main .single-person .details .person-contact .contact:after,
+body.contrast-design main #documents-container .icon,
+body.contrast-design .pagination-container .pagination-arrow,
+body.contrast-design main .documents-container .title-container .title .arrow,
+body.contrast-design main .documents-container .content .table .icon,
+body.contrast-design footer .footer-item {
+    background-image: url('../../images/ST_sprite_czb.png');
+}
+body.contrast-design .menu-item:not(.active) a:hover {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+body.contrast-design main #contact .contact-info-container .single-box .details {
+    background: none;
+}
+body.contrast-design main #contact .contact-info-container .single-box .details .text {
+    border-right: 1px solid #ffcc00;
+    border-top: 1px solid #ffcc00;
+    border-bottom: 1px solid #ffcc00;
+}
+body.contrast-design main #contact .contact-info-container .single-box .position {
+    background: none;
+}
+body.contrast-design main #contact .contact-info-container .single-box .position .text {
+    border: 1px solid #ffcc00;
+}
+body.contrast-design main .single-person .position,
+body.contrast-design main .single-person .details {
+    background: none;
+}
+body.contrast-design main .single-person .position {
+    box-shadow: inset 0 0 0 1px #ffcc00;
+}
+body.font-medium .toggle-menu .title {
+    font-size: medium;
+}
+body.font-medium header nav .menu-container .menu-item a {
+    font-size: large;
+}
+body.font-medium header nav .website-controls .control a {
+    font-size: 13px;
+}
+body.font-medium h1 {
+    font-size: 28px;
+}
+body.font-medium h3 {
+    font-size: 22px;
+}
+body.font-medium main .list-container .list-item .short-content-item {
+    font-size: 16px;
+}
+body.font-medium main .page-title-container .date-cell {
+    font-size: 15px;
+}
+body.font-medium main .mobile-page-date {
+    font-size: 15px;
+}
+body.font-medium main .page-title-container .page-cell .page-name {
+    font-size: 18px;
+}
+body.font-medium .pagination-container,
+body.font-medium main .documents-container .content,
+body.font-medium main #sub-page-content #content,
+body.font-medium main .single-person .person-information,
+body.font-medium main .sub-title,
+body.font-medium main #contact .text-container .content {
+    font-size: 17px;
+}
+body.font-medium main .documents-container .title-container {
+    font-size: 18px;
+    height: 22px;
+}
+body.font-medium main .home-container .home-title {
+    font-size: 34px;
+}
+body.font-medium main .home-container .home-content {
+    font-size: 18px;
+}
+body.font-medium main #album-items-container .album-item .album-title {
+    font-size: 14px;
+}
+body.font-large .toggle-menu .title {
+    font-size: large;
+    margin-left: -4px;
+}
+body.font-large header nav .menu-container .menu-item a {
+    font-size: x-large;
+}
+body.font-large header nav .website-controls .control a {
+    font-size: 17px;
+}
+body.font-large h1 {
+    font-size: 33px;
+}
+body.font-large h3 {
+    font-size: 25px;
+}
+body.font-large main .list-container .list-item .short-content-item {
+    font-size: 18px;
+}
+body.font-large main .page-title-container .date-cell {
+    font-size: 17px;
+}
+body.font-large main .list-item .mobile-page-date {
+    font-size: 17px;
+}
+body.font-large main .page-title-container .page-cell .page-name {
+    font-size: 20px;
+}
+body.font-large .pagination-container,
+body.font-large main #sub-page-content #content,
+body.font-large main .single-person .person-information,
+body.font-large main .sub-title,
+body.font-large main #contact .text-container .content {
+    font-size: 19px;
+}
+body.font-large main .documents-container .title-container {
+    font-size: 20px;
+    height: 24px;
+}
+body.font-large main .documents-container .content {
+    font-size: 19px;
+}
+body.font-large main .home-container .home-title {
+    font-size: 36px;
+}
+body.font-large main .home-container .home-content {
+    font-size: 19px;
+}
+body.font-large main #album-items-container .album-item .album-title {
+    font-size: 16px;
+}
+h1 {
+    font-size: 25px;
+    color: #094975;
+    text-align: center;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin: 5px 0;
+}
+h3 {
+    font-size: 18px;
+    color: #094975;
+    text-align: right;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+/* HEADER */
+header {
+    padding-bottom: 0px;
+    position: relative;
+    overflow: hidden;
+}
+header .line {
+    height: 5px;
+    width: 100%;
+    background: #007cc4;
+    position: absolute;
+    bottom: 0px;
+}
+header .line:after {
+    content: '';
+    position: absolute;
+    height: 5px;
+    background: #ffcc00;
+}
+header .line:before {
+    content: '';
+    position: absolute;
+    height: 5px;
+    background: #007cc4;
+}
+header nav {
+    max-width: 1300px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+header nav .line {
+    left: 125px;
+    width: calc(100% - 125px);
+    bottom: 0;
+}
+header nav .logo {
+    float: left;
+    display: block;
+    z-index: -1;
+    width: 230px;
+    height: 120px;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    background-image: url('../../images/ST_sprite_kolor.png');
+    background-repeat: no-repeat;
+    background-position: -49px -260px;
+}
+header nav .menu-container {
+    padding: 0;
+    margin: 0;
+    height: 50px;
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    -webkit-transition: all 1s ease;
+}
+header nav .menu-container .menu-item {
+    display: inline-table;
+    height: 100%;
+}
+header nav .menu-container .menu-item a {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    width: 130px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #094975;
+}
+header nav .menu-container .menu-item.active a {
+    border-bottom: 5px solid #F5D05E;
+}
+header nav .menu-container .menu-item:not(.active):hover {
+    border-bottom: 5px solid #F5D05E;
+}
+header nav .menu-container.show {
+    display: block;
+    transition: 200ms;
+}
+header nav .website-controls {
+    float: right;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    vertical-align: top;
+}
+header nav .website-controls .control {
+    display: inline-table;
+    height: 100%;
+    vertical-align: top;
+}
+header nav .website-controls .control a {
+    text-align: center;
+    font-size: 10px;
+    display: table-cell;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #094975;
+}
+header nav .website-controls .control .change-contrast {
+    width: 150px;
+}
+header nav .website-controls .control .change-font-size {
+    background-image: url('../../images/ST_sprite_kolor.png');
+    background-repeat: no-repeat;
+    width: 30px;
+    background-position: -17px -173px;
+}
+header nav .website-controls .control .change-font-size.medium {
+    background-position: -72px -173px;
+}
+header nav .website-controls .control .change-font-size.large {
+    background-position: -126px -173px;
+}
+header nav .website-controls .control .change-font-size.active {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+/* MAIN */
+main {
+    min-height: 400px;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+main hr {
+    border-top: 3px solid #094975;
+    border-bottom: 0px;
+}
+main .page-title-container {
+    display: table;
+    width: 100%;
+    color: #094975;
+    font-weight: bold;
+}
+main .page-title-container .page-cell {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+}
+main .page-title-container .page-cell.left {
+    width: 30px;
+    position: relative;
+}
+main .page-title-container .page-cell.left:after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    left: 0;
+    height: 50%;
+    background: #094975;
+    min-height: 40px;
+}
+main .page-title-container .page-cell.right {
+    width: 30px;
+}
+main .page-title-container .page-cell.right:after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    min-height: 40px;
+    right: 0px;
+    height: 50%;
+    background: #094975;
+}
+main .page-title-container .page-cell .line {
+    width: 100%;
+    height: 1px;
+    background: #094975;
+    display: block;
+}
+main .page-title-container .page-cell .page-name {
+    display: inline-block;
+    vertical-align: baseline;
+    zoom: 1;
+    position: relative;
+    max-width: 95%;
+}
+main .page-title-container .page-cell .page-name:after {
+    content: '';
+    height: 1px;
+    background: #094975;
+    top: calc(50% - 1px);
+    left: 100%;
+    position: absolute;
+    margin-left: 10px;
+    width: 1200px;
+}
+main .page-title-container .name-cell {
+    overflow: hidden;
+    padding-left: 10px;
+}
+main .page-title-container .date-cell {
+    width: 150px;
+    text-align: center;
+    font-size: 13px;
+}
+main .mobile-page-date {
+    color: #094975;
+    display: none;
+    font-size: 13px;
+    font-style: italic;
+    margin-left: 43px;
+    margin-bottom: 10px;
+}
+main .sub-title {
+    text-align: right;
+    margin-right: 10px;
+    color: #094975;
+    font-size: 15px;
+    margin-top: -25px;
+    margin-bottom: 10px;
+}
+main .home-container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 790px;
+    color: #094975;
+}
+main .home-container .home-title {
+    min-height: 115px;
+    color: #094975;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+main .home-content {
+    color: #094975;
+}
+main .home-belt {
+    background-image: url('../../images/line.png');
+    width: auto;
+    height: 9px;
+    background-size: 100%;
+}
+main .list-container {
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+main .list-container .list-item {
+    display: block;
+    margin-top: 40px;
+    text-decoration: none;
+    position: relative;
+    color: #094975;
+}
+main .list-container .list-item .short-content-item {
+    padding: 15px;
+    display: block;
+    font-size: 15px;
+    font-weight: 200;
+    border-left: 1px solid #094975;
+    border-right: 1px solid #094975;
+    border-bottom: 1px solid #094975;
+    position: relative;
+}
+main .list-container .list-item .short-content-item .more-button {
+    position: absolute;
+    background: #094975;
+    margin-top: 4px;
+    right: 50px;
+    width: 100px;
+    color: white;
+    text-align: center;
+    display: block;
+    font-weight: bold;
+    padding: 2px;
+}
+main #sub-page-content {
+    margin: 0 10px;
+    margin-top: 40px;
+}
+main #sub-page-content #content {
+    font-weight: 200;
+    font-size: 15px;
+    color: 094975;
+    padding: 15px;
+    border-left: 1px solid #094975;
+    border-right: 1px solid #094975;
+    border-bottom: 1px solid #094975;
+}
+main #sub-page-content #content > p {
+    margin: 0;
+    padding: 0;
+}
+main .single-person {
+    padding: 10px 0 0 0;
+    height: 85px;
+    overflow: hidden;
+    position: relative;
+}
+main .single-person.color-green .belt {
+    background: #5EA130;
+}
+main .single-person.color-green .position {
+    background: #AECF96;
+}
+main .single-person.color-sea .belt {
+    background: #3AB4C3;
+}
+main .single-person.color-sea .position {
+    background: #9BDAE1;
+}
+main .single-person.color-blue .belt {
+    background: #017BC4;
+}
+main .single-person.color-blue .position {
+    background: #7FBDE2;
+}
+main .single-person.color-pink .belt {
+    background: #822551;
+}
+main .single-person.color-pink .position {
+    background: #BF92A7;
+}
+main .single-person.color-red .belt {
+    background: #DB2518;
+}
+main .single-person.color-red .position {
+    background: #ED928D;
+}
+main .single-person.color-orange .belt {
+    background: #E67816;
+}
+main .single-person.color-orange .position {
+    background: #F3BB8A;
+}
+main .single-person .belt {
+    height: 100%;
+    float: left;
+    width: 10px;
+    margin-right: 10px;
+}
+main .single-person .position {
+    float: left;
+    width: 278px;
+    height: 100%;
+    /* display: table; */
+    font-weight: bold;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    bottom: 10px;
+}
+main .single-person .position .wrapper {
+    height: calc(100% - 10px);
+    position: relative;
+    display: table;
+    width: 100%;
+}
+main .single-person .position .text {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 10px;
+}
+main .single-person .position:after {
+    content: '';
+}
+main .single-person .details {
+    height: 100%;
+    margin-left: 310px;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #094975;
+}
+main .single-person .details .person-name {
+    height: 85px;
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 19px;
+    padding: 0 15px;
+}
+main .single-person .details .person-name .text {
+    vertical-align: middle;
+}
+main .single-person .details .person-contact {
+    display: table-cell;
+}
+main .single-person .details .person-contact .group {
+    display: inline-block;
+    vertical-align: middle;
+}
+main .single-person .details .person-contact .group:first-child {
+    width: 63%;
+}
+main .single-person .details .person-contact .group:last-child {
+    width: 35%;
+}
+main .single-person .details .person-contact .wrapper {
+    width: 400px;
+}
+main .single-person .details .person-contact .contact {
+    width: 250px;
+    position: relative;
+    padding-left: 40px;
+    font-size: 12px;
+    padding-top: 10px;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+main .single-person .details .person-contact .contact:after {
+    content: '';
+    background: url('../../images/ST_sprite_kolor.png');
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 35px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+main .single-person .details .person-contact .contact.email:after {
+    background-position: -66px -123px;
+}
+main .single-person .details .person-contact .contact.phone:after {
+    background-position: -121px -123px;
+}
+main .single-person .details .person-contact .contact.room:after {
+    background-position: -11px -123px;
+}
+main #album-items-container .wrapper {
+    text-align: center;
+}
+main #album-items-container .album-item {
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    height: 130px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    border: 1px solid #094975;
+    overflow: hidden;
+}
+main #album-items-container .album-item .album-title {
+    display: table;
+    background-color: rgba(9, 73, 117, 0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    opacity: 0;
+    font-size: 12px;
+}
+main #album-items-container .album-item .album-title span {
+    display: table-cell;
+    vertical-align: middle;
+}
+main #album-items-container .album-item:hover .album-title {
+    opacity: 1;
+    transition: 200ms;
+}
+main #contact {
+    text-align: center;
+    margin: 10px;
+}
+main #contact .map-container {
+    display: inline-block;
+    max-width: 400px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+main #contact .map-container .address-container {
+    text-align: left;
+    background: #094975;
+    color: white;
+    padding: 10px;
+    margin-top: -5px;
+}
+main #contact .map-container .address-container a {
+    text-decoration: none;
+    color: inherit;
+}
+main #contact .contact-info-container {
+    display: inline-block;
+    max-width: 700px;
+    vertical-align: top;
+    margin-top: 30px;
+    margin-right: 40px;
+}
+main #contact .contact-info-container .single-box {
+    height: 197px;
+}
+main #contact .contact-info-container .single-box:first-child {
+    margin-bottom: 15px;
+}
+main #contact .contact-info-container .single-box .belt {
+    float: left;
+    height: 100%;
+    width: 15px;
+    margin-right: 10px;
+}
+main #contact .contact-info-container .single-box .position {
+    display: inline-table;
+    height: 100%;
+    width: 240px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 20px;
+    float: left;
+    text-align: left;
+}
+main #contact .contact-info-container .single-box .position .text {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 20px;
+}
+main #contact .contact-info-container .single-box .details {
+    display: inline-table;
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 100%;
+    width: 400px;
+    font-size: 18px;
+    font-weight: 200;
+}
+main #contact .contact-info-container .single-box .details .text {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    padding: 20px;
+}
+main #contact .contact-info-container .single-box.sea-color .belt {
+    background: #39B4C3;
+}
+main #contact .contact-info-container .single-box.sea-color .position {
+    background: #9BDAE1;
+}
+main #contact .contact-info-container .single-box.blue-color .belt {
+    background: #167AB4;
+}
+main #contact .contact-info-container .single-box.blue-color .position {
+    background: #7FBDE2;
+}
+main #documents-container {
+    padding-top: 30px;
+    text-align: center;
+}
+main #documents-container .category-box {
+    display: inline-block;
+    vertical-align: top;
+    width: 365px;
+    margin: 0 5px;
+}
+main #documents-container .category-box.color-green {
+    color: #619F32;
+}
+main #documents-container .category-box.color-blue {
+    color: #057BC1;
+}
+main #documents-container .category-box.color-red {
+    color: #C52E23;
+}
+main #documents-container .category-box .category-content {
+    background-color: rgba(255, 255, 255, 0.6);
+    min-height: 300px;
+    color: black;
+}
+main #documents-container .category-box .category-name {
+    border-bottom: 8px solid;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 35px;
+}
+main #documents-container .category-box .single-document {
+    color: inherit;
+    padding: 10px;
+    overflow: hidden;
+    display: block;
+    text-decoration: none;
+}
+main #documents-container .category-box .single-document .name {
+    padding-left: 10px;
+    height: 50px;
+    display: table-cell;
+    vertical-align: middle;
+}
+main #documents-container .icon {
+    background: url('../../images/ST_sprite_kolor.png');
+    height: 50px;
+    width: 50px;
+    float: left;
+    background-position: -224px -4px;
+}
+main #documents-container .icon.pdf-icon {
+    background-position: -6px -4px;
+}
+main #documents-container .icon.xls-icon {
+    background-position: -115px -4px;
+}
+main #documents-container .icon.doc-icon {
+    background-position: -60px -4px;
+}
+main #documents-container .icon.img-icon {
+    background-position: -170px -4px;
+}
+footer {
+    min-height: 90px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    max-width: 1100px;
+}
+footer .footer-item {
+    position: absolute;
+    background-image: url('../../images/ST_sprite_kolor.png');
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 90px;
+}
+footer .footer-item.left {
+    background-position: -323px -13px;
+    left: 0;
+}
+footer .footer-item.center {
+    background-position: -323px -119px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+footer .footer-item.right {
+    background-position: -324px -223px;
+    right: 0;
+}
+.pagination-container {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #094975;
+    font-size: 14px;
+}
+.pagination-container .pagination-arrow {
+    background: url('../../images/ST_sprite_kolor.png') no-repeat;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin: 2px;
+}
+.pagination-container .pagination-arrow.go-to-first {
+    background-position: -128px -71px;
+}
+.pagination-container .pagination-arrow.go-to-last {
+    background-position: -179px -71px;
+}
+.pagination-container .pagination-arrow.go-to-prev {
+    background-position: -238px -71px;
+    margin-left: 20px;
+}
+.pagination-container .pagination-arrow.go-to-next {
+    background-position: -289px -71px;
+    margin-right: 20px;
+}
+.pagination-container .page-number {
+    vertical-align: top;
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    margin: 0 3px;
+    padding: 5px 3px;
+}
+.pagination-container .page-number.current {
+    font-weight: bold;
+}
+.clear-fix {
+    clear: both;
+}
+.toggle-menu {
+    position: absolute;
+    right: 17px;
+    top: 35px;
+    width: 40px;
+    height: 35px;
+    display: none;
+    cursor: pointer;
+}
+.toggle-menu .title {
+    position: absolute;
+    bottom: -20px;
+    color: #094975;
+    font-size: 15px;
+    font-weight: 200;
+}
+.toggle-menu .icon-bar {
+    background: #094975;
+    height: 5px;
+    margin-top: 5px;
+    border-radius: 2px;
+}
+@media (max-width: 1050px) {
+    .home-title {
+        margin: 20px;
+    }
+    .home-content {
+        margin: 20px !important;
+    }
+    .toggle-menu {
+        display: block !important;
+    }
+    header nav .logo {
+        float: none;
+        position: static;
+        margin: 0 auto;
+    }
+    header nav .menu-container {
+        margin: 0px;
+        width: 100%;
+        height: auto;
+        display: none;
+    }
+    header nav .menu-container .menu-item {
+        width: 100%;
+        height: 40px;
+    }
+    header nav .menu-container .menu-item a {
+        width: 100%;
+    }
+    main .single-person .person-information .person-cell {
+        display: block;
+        width: auto !important;
+    }
+    main .single-person .person-information {
+        display: block;
+        word-break: break-all;
+    }
+    header nav:before {
+        left: 0;
+    }
+    main .single-person .position {
+        float: none;
+        width: auto;
+        height: 100%;
+        display: block;
+        font-weight: bold;
+        position: static;
+    }
+    main .single-person .details {
+        margin-left: 0;
+    }
+}
+@media (max-width: 600px) {
+    footer .footer-item {
+        position: static;
+        margin: 0 auto !important;
+    }
+    main .map-container iframe {
+        width: 300px;
+        height: 300px;
+    }
+    main #contact .map-container .address-container {
+        width: 280px;
+    }
+    main .map-container {
+        margin: 0 auto;
+    }
+}
+@media (max-width: 700px) {
+    main .page-title-container .date-cell {
+        display: none;
+    }
+    main .mobile-page-date {
+        display: block;
+    }
+    main .documents-container .content {
+        padding: 0;
+    }
+}
+@media (max-width: 400px) {
+    header nav .logo {
+        margin: 0;
+    }
+}
+@media (max-width: 750px) {
+    main .single-person .details .person-contact {
+        display: block;
+    }
+    main #contact .contact-info-container .single-box {
+        height: auto;
+    }
+    main #contact .contact-info-container {
+        margin-right: 0;
+    }
+    main #contact .contact-info-container .single-box .details,
+    main #contact .contact-info-container .single-box .position {
+        width: 100%;
+    }
+    body.contrast-design main #contact .contact-info-container .single-box .details .text {
+        border-left: 1px solid;
+        border-top: 0px;
+    }
+}
+@media (max-width: 1100px) {
+    main .single-person {
+        height: auto;
+    }
+    main .single-person .details .person-contact .wrapper {
+        width: 300px;
+    }
+    main .single-person .details .person-contact .group:first-child,
+    main .single-person .details .person-contact .group:last-child {
+        width: 100%;
+    }
+}
